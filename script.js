@@ -7,7 +7,7 @@ function compute()
     var years = document.getElementById("years").value;
     var intrest = p*years * rate/100;
     //rounds the intrest to the nearest cent
-    intrst = Math.round(intrest * 100) / 100 ;
+    intrest = Math.round(intrest * 100) / 100 ;
     var years = new Date().getFullYear()+ parseInt(years);
     var amount = intrest + p;
     //checks if the input is less than or equal to zero
